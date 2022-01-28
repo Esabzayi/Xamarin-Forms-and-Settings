@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Forms_Settings.MainPage"
+             Padding="30">
+    <StackLayout>
+        <Switch IsToggled="True" x:Name="Switch" VerticalOptions="Start" HorizontalOptions="Start"/>
+        <Label Text="Salman" x:Name="lbl" IsVisible="{Binding Source={x:Reference Switch}, Path=IsToggled}"
+                HorizontalOptions="StartAndExpand"/>
+    </StackLayout>
+  
+</ContentPage>

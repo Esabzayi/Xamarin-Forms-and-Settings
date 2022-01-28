@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage Title="Forms and Settings in Xamarin" xmlns:local="clr-namespace:Forms_Settings"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Forms_Settings.MainTabbedPage"           
+            >
+  <!--Pages can be added as references or inline-->
+    <local:MainPage Title="Switch"/>
+    <local:SliderPage Title="Slider"/>
+    <local:StepperPage Title="Stepper"/>
+    <local:EntryPage Title="Entry"/>
+    <local:PickerPage Title="Picker"/>
+  
+   
+</TabbedPage>
